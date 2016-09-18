@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#main-container {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.devise-container {
+  width: 345px;
+  padding-left: 15px;
+}
+
+.product-block {
+   width: 750px;
+}
+
+.btn {
+   text-decoration: none;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+th {
+  background-color: #333333;
+  color: white;
+}
+
+td {
+  background-color: #808080;
+  color: white;
+}
