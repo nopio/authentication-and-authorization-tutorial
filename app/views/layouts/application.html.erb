@@ -19,6 +19,17 @@
 		      </button>
 		      <a class="navbar-brand" href="/">Rails Tutorial</a>
 				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><%= link_to "List", products_path %></li>
+                  <li><%= link_to "New", new_product_path %></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
 		 	</div>
 	  </div>
 	</nav>
