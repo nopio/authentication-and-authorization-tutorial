@@ -1,4 +1,5 @@
-<p id="notice"><%= notice %></p>
+<%= flash_messages %>
+<h2>Product</h2>
 
 <p>
   <strong>Name:</strong>
@@ -7,8 +8,8 @@
 
 <p>
   <strong>Price:</strong>
-  <%= @product.price %>
+  	$<%= @product.price %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<%= link_to 'Edit', edit_product_path(@product), class: "btn btn-warning" %>
+<%= link_to "Back", products_path, class: "btn btn-default" %>
